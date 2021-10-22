@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+ul,
+li {
+  list-style: none;
+}
+body {
+  background: rgb(250, 219, 224);
+}
+header {
+  width: 95%;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.logoBox {
+}
+
+.logoImg {
+  width: 150px;
+  height: 60px;
+  margin-left: 50px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.menuBox {
+  display: flex;
+}
+
+.menuBox ul {
+  display: flex;
+}
+
+.menuBox li {
+  height: 50px;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.menuBox li:hover {
+  cursor: pointer;
+  border-bottom: 3px solid pink;
+}
+
+.menu-icon {
+  padding-left: 10px;
+}
+
+.hamburgerMenu {
+  padding-right: 50px;
+  display: none;
+}
+
+@media all and (max-width: 1025px) {
+  #menuBox {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    display: block;
+  }
+}
